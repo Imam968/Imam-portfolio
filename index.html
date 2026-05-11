@@ -539,9 +539,11 @@
 
         .avatar-box {
             background: var(--bg-gradient-onyx);
-            border-radius: 30px;
+            border-radius: 50%;
             padding: 4px;
-            box-shadow: 0 0 20px rgba(241, 196, 15, 0.1);
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.3);
+            width: max-content;
+            margin: auto;
         }
 
         .info-content .name {
@@ -835,7 +837,7 @@
             left: 0;
             transform: translate(15px, -25px);
             background: var(--bg-gradient-onyx);
-            border-radius: 14px;
+            border-radius: 50%;
             box-shadow: var(--shadow-1);
         }
 
@@ -951,7 +953,7 @@
         .modal-avatar-box {
             background: var(--bg-gradient-onyx);
             width: max-content;
-            border-radius: 14px;
+            border-radius: 50%;
             margin-bottom: 15px;
             box-shadow: var(--shadow-2);
         }
@@ -2344,7 +2346,7 @@
 
                 <figure class="avatar-box">
                     <img src="./assets/images/my-avatar.png" alt="MD IMAM HASAN" width="120"
-                        style="border-radius: 20px; box-shadow: var(--shadow-1);">
+                        style="border-radius: 50%; box-shadow: var(--shadow-1); aspect-ratio: 1/1; object-fit: cover;">
                 </figure>
 
                 <div class="info-content">
@@ -2639,7 +2641,7 @@
                                 <figure class="testimonials-avatar-box">
                                     <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&h=100&auto=format&fit=crop"
                                         alt="Daniel lewis" width="60" data-testimonials-avatar
-                                        style="border-radius: 12px;">
+                                        style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
                                 </figure>
 
                                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
@@ -2661,13 +2663,11 @@
 
                         <li class="testimonials-item">
                             <div class="content-card" data-testimonials-item>
-
                                 <figure class="testimonials-avatar-box">
                                     <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&h=100&auto=format&fit=crop"
                                         alt="Jessica miller" width="60" data-testimonials-avatar
-                                        style="border-radius: 12px;">
+                                        style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
                                 </figure>
-
                                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
 
                                 <div class="testimonials-text" data-testimonials-text>
@@ -2691,7 +2691,7 @@
                                 <figure class="testimonials-avatar-box">
                                     <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100&h=100&auto=format&fit=crop"
                                         alt="Emily evans" width="60" data-testimonials-avatar
-                                        style="border-radius: 12px;">
+                                        style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
                                 </figure>
 
                                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
@@ -2717,7 +2717,7 @@
                                 <figure class="testimonials-avatar-box">
                                     <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&h=100&auto=format&fit=crop"
                                         alt="Henry william" width="60" data-testimonials-avatar
-                                        style="border-radius: 12px;">
+                                        style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
                                 </figure>
 
                                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
@@ -2758,7 +2758,8 @@
 
                         <div class="modal-img-wrapper">
                             <figure class="modal-avatar-box">
-                                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img
+                                    style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
                             </figure>
 
                             <img src="./assets/images/icon-quote.svg" alt="quote icon">
